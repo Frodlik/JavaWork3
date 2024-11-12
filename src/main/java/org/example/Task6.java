@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 
+//Створіть програму для визначення коду введеного символу в стандарті Юнікод.
+// Забезпечте циклічність виконання програми до введення знака рівності, яке призводить до виходу з програми).
+
 public class Task6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

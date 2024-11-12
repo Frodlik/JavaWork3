@@ -2,6 +2,10 @@ package org.example;
 
 import java.util.Scanner;
 
+// Створіть програму для шифрування\розшифровки тексту методом Цезаря.
+// У ньому ключем є ціле число, а шифрування\ розшифровка полягає в сумовуванні\відніманні кодів
+// символів відкритого тексту\криптотексту з ключем.
+
 public class Task5 {
     public static String encrypt(String text, int key) {
         StringBuilder result = new StringBuilder();
